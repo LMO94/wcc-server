@@ -1,4 +1,5 @@
-import { Body, Controller, Get, Param, Post } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post, Put } from '@nestjs/common';
+import * as initialTrips from "./trips.json"
 
 interface Trip {
     location: string,
@@ -6,9 +7,6 @@ interface Trip {
     duration: string,
   }
 
- let initialTrips = [{ location: "Berne", 
-                        car_id: "XDFSAD",
-                        duration: "40min" }]
 
 @Controller('trips')
 export class TripsController {
@@ -25,6 +23,13 @@ export class TripsController {
     create(@Body() trip:Trip){
         this.trips.push(trip)
 
+    }
+
+    @Put()
+    update(@Body() body:{n:number}){
+        let i = body.n
+        let trip = this.trips[i]
+        this.trips[i]= {... trip}
     }
     
     @Get(":id")
