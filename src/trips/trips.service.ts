@@ -1,16 +1,15 @@
 import { Injectable } from '@nestjs/common';
 
+
 export interface Trip {
     location: string,
     car_id: string,
     duration: string
   }
 
-  let initialTrips = [{ location: "Berne", 
-                        car_id: "XDFSAD",
-                        duration: "40min" 
-                    }]
-
+let initialTrips = [{location: "Zurich",
+                     car_id: "KSOFF",
+                     duration: "35min"}]
 
 @Injectable()
 export class TripsService {
