@@ -1,0 +1,24 @@
+[
+    { "location": "Zurich", "car_id":"80X48", "duration": "12min"},
+    { "location": "Lucerne", "car_id":"LRTSX", "duration": "23min"},
+    { "location": "Basel", "car_id":"TPA5Y", "duration": "13min"},
+    { "location": "Berne", "car_id":"6RMUO", "duration": "14min"},
+    { "location": "Geneva", "car_id":"1WFYO", "duration": "22min"},
+    { "location": "Lugano", "car_id":"6RMUO", "duration": "34min"},
+    { "location": "Zurich", "car_id":"G0BQM", "duration": "32min"},
+    { "location": "Berne", "car_id":"6RMUO", "duration": "23min"},
+    { "location": "Zurich", "car_id":"G0BQM", "duration": "21min"},
+    { "location": "Berne", "car_id":"6RMUO", "duration": "11min"},
+    { "location": "Geneva", "car_id":"IMO8V", "duration": "39min"},
+    { "location": "Geneva", "car_id":"80X48", "duration": "44min"},
+    { "location": "Berne", "car_id":"IMO8V", "duration": "43min"},
+    { "location": "Geneva", "car_id":"IMO8V", "duration": "40min"},
+    { "location": "Geneva", "car_id":"IMO8V", "duration": "32min"},
+    { "location": "Zurich", "car_id":"IMO8V", "duration": "14min"},
+    { "location": "Geneva", "car_id":"G0BQM", "duration": "19min"},
+    { "location": "Lucerne", "car_id":"6RMUO", "duration": "17min"},
+    { "location": "Geneva", "car_id":"IMO8V", "duration": "19min"},
+    { "location": "Berne", "car_id":"IMO8V", "duration": "14min"},
+    { "location": "Lugano", "car_id":"TPA5Y", "duration": "32min"}
+
+]
