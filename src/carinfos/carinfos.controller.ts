@@ -11,14 +11,11 @@ interface CarInfo {
 export class CarinfosController {
     constructor(private carinfosService: CarinfosService) {}
         
-    //private readonly carinfos: CarInfo[] = initialCarInfos;
-
-
     @Get()
     findAll(): CarInfo[] {
         return this.carinfosService.findAll();
     }
-
+    
     @Post()
     create(@Body() carinfo:CarInfo){
         this.carinfosService.create(carinfo)
@@ -27,7 +24,6 @@ export class CarinfosController {
 
     @Put("/:id")
     update(@Param("id") id:string,@Body() body:{driver:string}):CarInfo {
-        //let carInfo = this.carinfosService.getCarInfoById(id)
         this.carinfosService.update(id, body.driver)
         let carInfo = this.carinfosService.getCarInfoById(id)
         return carInfo
