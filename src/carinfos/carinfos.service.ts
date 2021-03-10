@@ -19,4 +19,27 @@ export class CarinfosService {
         this.carinfos.push(carinfo)
     }
 
+    update(id:string, driver:string): CarInfo[] {
+        return this.updateCarInfoById(id,driver)
+    }
+
+    getCarInfoById(id:string): CarInfo {
+        let value = null;
+        this.carinfos.forEach((carinfo: CarInfo)=>{
+            if (carinfo.car_id === id) {
+                value = carinfo;
+            }
+        })
+        return value;
+    }
+
+    updateCarInfoById(id:string, driver:string): CarInfo[] {
+        this.carinfos.forEach((carinfo: CarInfo)=>{
+            if (carinfo.car_id === id) {
+                carinfo.driver = driver;
+            }
+        })
+        return this.carinfos;
+    }
+
 }
