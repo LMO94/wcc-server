@@ -74,8 +74,19 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Gideon Stuelb: Student ID **45648**, **45648@novasbe.pt**
 
 ## Description of the API implemented
+- RestfulAPI methods we used for both the Car-Information and the Trips-Information are the get and the post method. 
+- The GET method retrieves all trips and car information from the json file
+- The POST method updates the information/ creates a new entry to the list/ creates a new trip or car information
+
+- The PUT method is only used to update a Car Information with a new Driver, hence it is not used in with trips information
 
 ## Comments on project development
+- For the final project we developed the client-side application as wcc-client and a server-side as wcc-server.
+- For the client-side the code from Quiz2 could be reused and readjusted to define the datatypes for Trips and Cars, to have dynamic lists for both and to have a implement a dynamic chart with trips. On that behalf we created newTrip and add Car Inforamtion.
+  - Some CSS styling was done to align the components with each other and to import some pictogramms to make it more appealing and intuitive to use
+  - A time consuming task here was to make a asynchronous connection between the client- and the server-side and to ensure that the information inputted in the react app are not lost when updating the react app in the browser.
+- For the server-side created the asked for GET, POST, and PUT methods to retrieve, create, and update the information.
+  - As mentioned under the previous bulletpoint, the challenge was to update the information on the server-side
 
 
 ## License
