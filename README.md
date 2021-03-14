@@ -68,6 +68,16 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
+## Information on team
+- Lennart Max Oser: Student ID **44379**, **44379@novasbe.pt**
+- Frederik Soegaard Nielsen: Student ID **44898**, **44898@novasbe.pt**
+- Gideon Stuelb: Student ID **45648**, **45648@novasbe.pt**
+
+## Description of the API implemented
+
+## Comments on project development
+
+
 ## License
 
 Nest is [MIT licensed](LICENSE).
